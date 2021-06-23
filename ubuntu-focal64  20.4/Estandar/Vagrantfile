@@ -17,6 +17,7 @@ Vagrant.configure("2") do |config|
     # Provider Settings
     config.vm.provider "virtualbox" do |vb|
 	   #vb.customize [ "modifyvm", :id, "--uartmode1", "file", File::NULL ] // Solucionaba un error de una version vieja de esta caja  	
+     #https://discuss.hashicorp.com/t/vagrant-box-add-mynewbox-newbox-box-command-throws-url-using-bad-illegal-format-or-missing-url/24556  
        vb.memory = 2048
        vb.cpus = 4
     end
