@@ -6,3 +6,6 @@
 - vagrant halt : apaga la instancia
 - vagrant reload : es equivalente a hacer un halt && up. Esto ejecuta los cambios hechos en el "vagrant.file" pero no ejecutara los "provisioners"
   - De querer ejecutarlos usa el parametro --provisioner
+
+-----
+[Home](../README.md) / [Guias](<./indice.md>)
