@@ -13,7 +13,8 @@ Vagrant.configure("2") do |config|
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://vagrantcloud.com/search.
   config.vm.box = "ubuntu/focal64"
-
+  # config.vm.box_version = "20210709.0.0" 
+  # version estable 
     # Provider Settings
     config.vm.provider "virtualbox" do |vb|
 	   #vb.customize [ "modifyvm", :id, "--uartmode1", "file", File::NULL ] // Solucionaba un error de una version vieja de esta caja 
